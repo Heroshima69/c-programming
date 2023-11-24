@@ -45,4 +45,17 @@ return a+b
 }
 float subtract(float a,float b){
 return a-b }
-float multiply(float a,float b)
+float multiply(float a,float b){
+return a*b }
+float division(float a,float b)
+{
+if(b!=0)
+{
+return a/b
+}
+else 
+{ 
+printf("error not divisible");
+return 0;
+}
+}
